@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyvuecypress-dev-15059-authRole",
+      "UnauthRoleArn": "arn:aws:iam::075807323348:role/amplify-amplifyvuecypress-dev-15059-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::075807323348:role/amplify-amplifyvuecypress-dev-15059-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyvuecypress-dev-15059-deployment",
+      "UnauthRoleName": "amplify-amplifyvuecypress-dev-15059-unauthRole",
+      "StackName": "amplify-amplifyvuecypress-dev-15059",
+      "StackId": "arn:aws:cloudformation:us-east-1:075807323348:stack/amplify-amplifyvuecypress-dev-15059/74f6d090-0e69-11ec-aefb-12a48490849f",
+      "AmplifyAppId": "d3ehovrchr1nea"
+    }
+  },
+  "auth": {
+    "amplifyvuecypressb9daeabc": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "loginMechanisms": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyvuecypress-dev-15059-deployment/amplify-cfn-templates/auth/amplifyvuecypressb9daeabc-cloudformation-template.yml",
+        "logicalId": "authamplifyvuecypressb9daeabc"
+      },
+      "lastPushTimeStamp": "2021-09-05T16:55:38.025Z",
+      "output": {
+        "UserPoolId": "us-east-1_xwHT3ZXEV",
+        "AppClientIDWeb": "7mseh3nqc2eu0s4okpvsia1s0o",
+        "AppClientID": "4qnj09lo85plab8hm69pv029c2",
+        "IdentityPoolId": "us-east-1:c5b43494-1592-4daf-bdef-e9e57a6f8d57",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:075807323348:userpool/us-east-1_xwHT3ZXEV",
+        "IdentityPoolName": "amplifyvuecypressb9daeabc_identitypool_b9daeabc__dev",
+        "UserPoolName": "amplifyvuecypressb9daeabc_userpool_b9daeabc"
+      },
+      "lastPushDirHash": "eI5jUFqLJc8gcdG5o+flisAh9lc="
+    }
+  }
+}
